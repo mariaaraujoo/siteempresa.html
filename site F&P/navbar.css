@@ -1,0 +1,101 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+    --cor-fundo: #d5380d;
+    --cor-hover: rgb(0, 0, 0);
+    --cor-primaria: rgb(255, 255, 255);
+  }
+  .dropmenu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .dropmenu {
+    position: relative top 40px;
+    
+  }
+  .dropmenu ul {
+    background-color: var(--cor-fundo);
+  }
+  
+  .dropmenu ul li {
+    display: inline;
+    position: relative;
+  }
+  
+  .dropmenu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background 0.3s;
+  }
+  
+  .dropmenu ul li a:hover {
+    background-color: var(--cor-hover);
+  }
+  
+  
+  .dropmenu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+  }
+  
+  .dropmenu ul li:hover ul {
+    display: block;
+  }
+  
+  .dropmenu ul ul {
+    width: 150px;
+  }
+  
+  .dropmenu ul ul li a {
+    display: block;
+  }
+  header{
+    background-color: #ff4500;
+    width: auto;}
+
+
+.contato img{
+  border-radius: 60px;
+  width: 50px;
+  height: 50px;
+}
+header p{color: white;}
+
+.titulo h1{color: white;
+
+}
+
+header h2{color: white;}
+
+.redes{
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  flex-wrap: nowrap;
+}
+
+.contato{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#imagem{
+  height: 210px; 
+    width: 230px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  .lateral { display: flex;
+    padding-left: 70%;
+    margin-left: 0%;
+    padding-top: 0%;}
+    
